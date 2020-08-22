@@ -1,0 +1,57 @@
+.search__input {
+  display: flex;
+  align-items: center;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  height: 42px;
+  width: 75vw;
+  border-radius: 999px;
+  margin: 0 auto;
+  max-width: 450px;
+  margin-top: 30px;
+  padding: 0px 12px;
+}
+
+.search__input:hover,
+.search__input:focus-within {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.search__input > input {
+  flex: 1;
+  outline: none;
+  border: none;
+  margin: 0 10px;
+  border-right: 1px solid rgba(0, 0, 0, 0.15);
+  font-size: 16px;
+}
+
+.search__input > .search_icon {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+/*google buttons*/
+.google-buttons {
+  margin: 30px auto;
+  display: flex;
+  width: 290px;
+  justify-content: space-between;
+}
+.google-buttons > button {
+  background-color: rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(0, 0, 0, 0);
+  text-transform: inherit;
+  padding: 5px 18px;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.7);
+  transition: all 0s;
+}
+
+.google-buttons button:hover {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.03));
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  color: rgba(0, 0, 0, 1);
+}
+
+.hidden {
+  display: none;
+}

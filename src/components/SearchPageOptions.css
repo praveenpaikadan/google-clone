@@ -1,0 +1,30 @@
+.searchPage__options {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 24px;
+  padding: 0 0 0 10px;
+}
+
+.searchPage__options__left,
+.searchPage__options__right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+
+.searchPage__options a {
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 300;
+  margin-right: 20px;
+  padding: 0 3px 0 0;
+  color: rgb(119, 119, 119);
+}
+
+.searchPage__options .MuiSvgIcon-root {
+  font-size: 17px;
+  padding: 2px;
+  color: rgb(114, 113, 113);
+}
